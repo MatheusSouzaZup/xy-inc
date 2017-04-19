@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_text"
+    tools:context="com.apimdb.SavedActivity">
+
+    <include
+        android:id="@+id/my_toolbar_saved"
+        layout="@layout/activity_toolbar"
+        />
+    <include
+        android:id="@+id/myIncFragmentContainer_saved"
+        layout="@layout/fragment_container_saved"
+        />
+
+</RelativeLayout>

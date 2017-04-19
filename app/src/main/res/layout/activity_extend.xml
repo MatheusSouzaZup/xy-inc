@@ -1,0 +1,71 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_text"
+
+    >
+
+    <include
+        android:id="@+id/my_toolbar_extend"
+        layout="@layout/activity_toolbar"
+        />
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/extend_my_image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/my_toolbar_extend"
+        android:src="@null"
+        android:padding="20dp"/>
+   <!-- <ImageView
+        android:id="@+id/extend_my_image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="fitXY"
+        android:src="@null"
+        android:layout_below="@+id/my_toolbar_extend"
+        android:padding="20dp"/>-->
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:padding="30dp"
+        app:srcCompat="@drawable/ic_heart_border"
+        android:layout_below="@+id/extend_my_image"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/extend_my_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:padding="20dp"/>
+
+    <TextView
+        android:id="@+id/extent_my_plot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="24dp"
+        android:paddingLeft="16dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_below="@+id/extend_my_title"
+        android:padding="20dp"
+         />
+
+
+
+
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Movie Collection</string>
+    <string name="not_connect">Sem Conexão</string>
+    <string name="error">Erro</string>
+</resources>
